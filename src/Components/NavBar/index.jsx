@@ -1,6 +1,7 @@
 import './NavBar.css';
 import { useState } from 'react';
 import { FaBloggerB } from 'react-icons/fa';
+import {AiOutlineArrowRight} from 'react-icons/ai'
 import { Link } from 'react-router-dom';
 const NavBar = () => {
     let [user, setUser] = useState(0);
