@@ -4,7 +4,7 @@ import "./Home.css"
 import { Link } from "react-router-dom";
 const Home =() => {
     const [blogs, setBlogs] = useState([ //usestate, blog here is a class
-        {title: 'My Information', body: 'Hi, I am Nguyen Ngoc Quang and I am currently a student of HCMUT. This is a blog about myself that I made out of ReactJS. I hope that through this blog, you will get to know more about me.',address: './MyInformation', link: 'Click to see my information', id: 1},
+        {title: 'About Me', body: 'Hi, I am Nguyen Ngoc Quang and I am currently a student of HCMUT. This is a blog about myself that I made out of ReactJS. I hope that through this blog, you will get to know more about me.',address: './MyInformation', link: 'Click to see my information', id: 1},
         {title: 'My Education', body: 'https://github.com/TheCodister', link: 'Click to see my education',address: './MyEducation', id: 2},
         {title: 'My Project', body: 'I am Quang of HCMUT',address: './MyProject', link: 'Click to see my project', id: 3},
         {title: 'My Hobby', body: 'I am Quang of HCMUT',address: './MyHobby', link: 'Click to see my hobby', id: 4}
@@ -28,7 +28,7 @@ const Home =() => {
                 </div>
             <img className="home-introduction-pic" alt="profile" src="/Image/ProfilePic.jpeg"></img>
             </div>
-            <BlogList blogs={blogs} handleDelete={handleDelete}/>
+                <BlogList blogs={blogs} handleDelete={handleDelete}/>
         </div>
     );    //prop is for using outside component in this component
 }
