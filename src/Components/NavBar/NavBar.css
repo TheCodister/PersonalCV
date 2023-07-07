@@ -1,23 +1,23 @@
 .navbar{
     display: flex;
-    height: 6em;
+    height: 12vh;
+    width: 100%;
     align-items: center;
     justify-content: center;
-    border-radius: 0em 0em 0em 3em;
+    border-radius: 0em 0em 0em 3vw;
     border-color: #75C9C8;
     background-color: rgb(27, 19, 19);
-    font-size: larger;
     font-weight: bold;
     color: #75C9C8;
-    margin-left: 3em;
+    margin-left: 4vw;
 }
 .navbar-icon{
-    width: 3em;
-    height: 3em;
-    margin-right: 2em;
+    width: 4vw;
+    height: 3vw;
+    margin-right: 1vw;
 }
 .navbar h1{
-    text-align: center;
+    font-size: 1.8vw;
 }
 .links{
     display: flex;
@@ -31,7 +31,7 @@
     text-align: center;
     color: #75C9C8;
     font-weight: bold;
-    font-size: 0.9em;
+    font-size: 1vw;
     margin-left: 1em;
     cursor: pointer;
 }

@@ -15,7 +15,6 @@ const Home =() => {
         setBlogs(newBlogs);
     }
     const button = [
-        {label: 'About Me', address:'./MyInformation'},
         {label: 'My Education', address:'./MyEducation'},
         {label: 'My Project', address:'./MyProject'},
         {label: 'My Hobby', address:'./MyHobby'},
@@ -26,10 +25,10 @@ const Home =() => {
                 <div className="home-introduction-text">
                     <h2>My journey can all be find right here, right now.</h2>
                     <p>We all go through little to big step in our life, same for myself. This is a website I build to reflect all.</p>
-                    <div className="home-introduction-button">
+                    <div className="home-introduction-buttonplace">
                         {button.map((button) => (
                         <div className="home-introduction-button-content">
-                            <Link to={button.address}>
+                            <Link to={button.address} className="home-introduction-button">
                                 <AiOutlineArrowRight className="home-introduction-button-icon"/>
                                 <h3>{button.label}</h3>
                             </Link>

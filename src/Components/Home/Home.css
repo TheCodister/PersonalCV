@@ -15,62 +15,62 @@
 }
 .home-introduction h2{
     width: 70%;
-    font-size: 5em;
+    font-size: 4vw;
     margin: 0;
 }
 .home-introduction a{
     text-decoration: none;
     display: flex;
     align-items: center;
-    height: 3em;
+}
+.home-introduction-buttonplace{
+    display: flex;
+    flex-wrap: wrap;
+    height:4vw;
 }
 .home-introduction-button{
-    display: flex;
-    height:3em;
+    margin-right: 1vw;
 }
 .home-introduction h3{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 8em;
-    height: 100%;
+    flex-wrap: wrap;
+    width: 8vw;
+    height: 2.8vw;
     background-color: black;
     font-weight: bold;
+    font-size: 1vw;
     border-radius: 0em 2em 2em 0em;
-    margin-right: 1em;
     color: white;
     overflow: auto;
 }
 .home-introduction p{
     width: 70%;
-    font-size: 2em;
-}
-.home-introduction-button-content{
-    display: flex;
-    align-items: center;
-    justify-content: left;
+    font-size: 2vw;
 }
 .home-introduction h3:hover{
     background-color: rgb(214, 29, 231);
-    transition: 250ms;
+    transition: 350ms;
 }
 .home-introduction-button-icon{
     color: white;
     background-color: rgb(214, 29, 231);
     border-radius: 2em 0em 0em 2em;
-    width: 2.5em;
-    height: 100%;
-    padding-left: 0.5em;
-    padding-right: 0.3em;
+    width: 2.3vw;
+    height: 2.8vw;
+    padding-left: 0.5vw;
+    padding-right: 0.3vw;
 }
 .home-introduction-pic{
-    height: 45em;
-    width: 33em;
-    margin-top: 5em;
+    height: 78vh;
+    width: 30vw;
+    margin-top: 4vw;
+    margin-left: 2vw;
     border-style: solid;
     border-color:black;
-    border-width: 0.8em;
-    border-radius: 5em;
+    border-width: 0.6vw;
+    border-radius: 4vw;
 }
 .home-blog-list{
     display: flex;
@@ -86,17 +86,17 @@
 .home-content-background{
     display: flex;
     align-items: center;
-    margin-top: 5em;
+    margin-top: 5vw;
     height: 30%;
 }
 .home-content-title{
-    font-size: x-large;
+    font-size: 2vw;
 }
 .home-content-title-line{
     border: 1px solid rgb(0, 0, 0);
 }
 .home-content-body{
-    font-size: larger;
+    font-size: 1.2vw;
     height: 50%;
 }
 .home-content-link:hover{
@@ -105,6 +105,6 @@
 }
 .home-content{
     text-align: left;
-    width: 60em;
-    height: 20em;
+    width: 55vw;
+    height: 15vw;
 }
