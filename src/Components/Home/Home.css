@@ -39,7 +39,7 @@
     width: 8vw;
     height: 2.8vw;
     background-color: black;
-    font-weight: bold;
+    font-weight: bolder;
     font-size: 1vw;
     border-radius: 0em 2em 2em 0em;
     color: white;
@@ -50,12 +50,13 @@
     font-size: 2vw;
 }
 .home-introduction h3:hover{
-    background-color: rgb(214, 29, 231);
+    background-color: #FFFFFF;
+    color:black;
     transition: 350ms;
 }
 .home-introduction-button-icon{
-    color: white;
-    background-color: rgb(214, 29, 231);
+    color: black;
+    background-color: #FFFFFF;
     border-radius: 2em 0em 0em 2em;
     width: 2.3vw;
     height: 2.8vw;
@@ -65,7 +66,7 @@
 .home-introduction-pic{
     height: 78vh;
     width: 30vw;
-    margin-top: 4vw;
+    margin-top: 2.5vw;
     margin-left: 2vw;
     border-style: solid;
     border-color:black;
@@ -77,7 +78,6 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 5em;
 }
 .home-blog-list a{
     text-decoration: none;
@@ -93,11 +93,14 @@
     font-size: 2vw;
 }
 .home-content-title-line{
-    border: 1px solid rgb(0, 0, 0);
+    border: 0.25vh solid rgb(0, 0, 0);
 }
 .home-content-body{
     font-size: 1.2vw;
     height: 50%;
+}
+.home-content-link{
+    font-size: 1vw;
 }
 .home-content-link:hover{
     transform: scale(1.05);
