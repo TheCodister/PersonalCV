@@ -1,11 +1,11 @@
 import { useState, useEffect } from "react";
 import BlogList from "./Bloglist";
-import {AiOutlineArrowRight} from 'react-icons/ai'
+import {FaArrowRight} from 'react-icons/fa'
 import "./Home.css"
 import { Link } from "react-router-dom";
 const Home =() => {
     const [blogs, setBlogs] = useState([ //usestate, blog here is a class
-        {title: 'About Me', body: 'Hi, I am Nguyen Ngoc Quang and I am currently a student of HCMUT. This is a blog about myself that I made out of ReactJS. I hope that through this blog, you will get to know more about me.',address: './MyInformation', link: 'Click to see my information', id: 1},
+        {title: 'About Me', body: 'My name is Nguyen Ngoc Quang, and I am a 21-year-old student currently pursuing my studies in Computer Science at Ho Chi Minh University of Technology. As a dedicated and enthusiastic individual, I am passionate about the world of technology and aspire to become a skilled software engineer in the future.',address: './MyInformation', link: 'Click to see my information', id: 1},
         {title: 'My Education', body: 'https://github.com/TheCodister', link: 'Click to see my education',address: './MyEducation', id: 2},
         {title: 'My Project', body: 'I am Quang of HCMUT',address: './MyProject', link: 'Click to see my project', id: 3},
         {title: 'My Hobby', body: 'I am Quang of HCMUT',address: './MyHobby', link: 'Click to see my hobby', id: 4}
@@ -29,7 +29,7 @@ const Home =() => {
                         {button.map((button) => (
                         <div className="home-introduction-button-content">
                             <Link to={button.address} className="home-introduction-button">
-                                <AiOutlineArrowRight className="home-introduction-button-icon"/>
+                                <FaArrowRight className="home-introduction-button-icon"/>
                                 <h3>{button.label}</h3>
                             </Link>
                         </div>

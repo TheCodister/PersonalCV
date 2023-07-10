@@ -1,3 +1,30 @@
 .info{
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 4vw;
+    scroll-behavior: smooth;
+}
+.info-profile{
+    width: 40em;
+    height: 40em;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 0.7em;
+    margin-bottom: 5em;
+}
+.info-content{
+    padding: 4em 4em;
+    background-color: #FFFFFF;
+    width: 80%;
+    border-radius: 5em 5em 0em 0em;
+}
+.info-content-text{
+    color: #75C9C8;
+    background-color: #000000;
+    margin-bottom: 3em;
+    padding: 0.25em 1em;
+    border-radius: 5em;
 }

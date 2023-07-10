@@ -9,6 +9,7 @@
     justify-content: center;
     align-items: center;
     text-align: left;
+    margin: 4em;
 }
 .home-introduction-text{
     width: 50%;
@@ -52,21 +53,20 @@
 .home-introduction h3:hover{
     background-color: #FFFFFF;
     color:black;
+    font-weight: bolder;
     transition: 350ms;
 }
 .home-introduction-button-icon{
     color: black;
     background-color: #FFFFFF;
     border-radius: 2em 0em 0em 2em;
-    width: 2.3vw;
-    height: 2.8vw;
-    padding-left: 0.5vw;
-    padding-right: 0.3vw;
+    width: 2vw;
+    height: 2.4vw;
+    padding: 0.2vw 0.6vw 0.2vw 0.6vw;
 }
 .home-introduction-pic{
     height: 78vh;
     width: 30vw;
-    margin-top: 2.5vw;
     margin-left: 2vw;
     border-style: solid;
     border-color:black;
@@ -84,10 +84,7 @@
     color: black;
 }
 .home-content-background{
-    display: flex;
-    align-items: center;
     margin-top: 5vw;
-    height: 30%;
 }
 .home-content-title{
     font-size: 2vw;
@@ -101,6 +98,7 @@
 }
 .home-content-link{
     font-size: 1vw;
+    font-weight: bold;
 }
 .home-content-link:hover{
     transform: scale(1.05);

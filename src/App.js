@@ -1,4 +1,4 @@
-import { Home, NavBar, MyInfo, MyEdu} from './Components';
+import { Home, NavBar, MyInfo, MyEdu,Footer} from './Components';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 function App() {
   return (
