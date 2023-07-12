@@ -15,6 +15,7 @@ const MyInfo = () => {
             <img src="/Image/Profilepic.jpg" alt="propic" className="info-profile"></img>
             <div className="info-content">
                 <h1 className="info-content-title">Summary</h1>
+                <div className="info-content-box">
                 {
                    content.map((content) => (
                         <div className="info-content-text">
@@ -23,6 +24,7 @@ const MyInfo = () => {
                         </div>
                    )) 
                 }
+                </div>
             </div>
         </div>
     );

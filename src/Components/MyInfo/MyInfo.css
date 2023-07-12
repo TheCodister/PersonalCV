@@ -20,7 +20,7 @@
     transition: 1.5s;
 }
 .info-content{
-    padding: 1em 6em;
+    padding: 0em 6em;
     background-color: #FFFFFF;
     width: 80%;
     border-radius: 5em 5em 0em 0em;
@@ -29,15 +29,17 @@
     text-align: center;
     font-size: 4rem;
 }
+.info-content-box{
+    height: 100%;
+    background-color: #000000;
+    border-radius: 4em 4em 0em 0em;
+}
 .info-content-text{
     display: flex;
     flex-direction: row;
     align-items: center;
     color: #75C9C8;
-    background-color: #000000;
-    margin-bottom: 3em;
-    padding: 0.25em 1em;
-    border-radius: 5em;
+    padding: 1em 2em;
 }
 .info-content-text h1{
     color: #FFFFFF;

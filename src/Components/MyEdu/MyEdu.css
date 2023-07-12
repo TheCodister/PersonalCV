@@ -5,45 +5,45 @@
     align-items: center;
 }
 .edu-content-box{
-    width: 75em;
-    height: auto;
-    margin: 4em;
+    background-color: #000000;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 78em;
+    height: 25em;
+    margin-top: 4em;
+    padding: 1em;
 }
 .edu-content-pic{
-    width: 45em;
-    height: 30em;
-    margin-right: 2em;
-    border-width: 0.5em;
-    border-style: solid;
-    border-radius: 3em;
+    width: 35em;
+    height: 20em;
+    box-shadow: 1em 1em #ffffff;
 }
 .edu-content-box-title{
-    background-color: #FFEF00;
-    color: #000000;
-    width: 30em;
-    height: 8em;
-    border-radius: 2em 2em 0em 0em;
-    border-style: solid;
-    border-width: 0.5vw;
-    border-color: #000000;
-    border-bottom: 0;
-    margin-left: 3em;
-    padding: 0em 1em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align:center;
+    border-right-style: solid;
+    color: #75C9C8;
+    width: 15em;
+    height: 15em;
+    padding:1em;
+}
+.edu-content-box-title h2{
+    color: #FFFFFF;
 }
 .edu-content-box-des{
-    border-style: solid;
-    border-color: #000000;
-    border-width: 0.5vw;
     display: flex;
     flex-direction: row;
     text-align: left;
-    background-color: #FFFFFF;
-    padding: 2em;
 }
 .edu-content-box-des p{
+    display: flex;
+    align-items: center;
     width: 20em;
-    color:#75C9C8;
+    color:#FFFFFF;
     background-color: #000000;
-    border-radius: 2em;
     padding: 1em;
 }

@@ -17,8 +17,8 @@ const MyEdu = () => {
                                 <h2>{eduInfo.name}</h2>
                             </div>
                             <div className="edu-content-box-des">
-                                <img src={eduInfo.imgsrc} alt="schoolpic" className="edu-content-pic"/>
                                 <p>{eduInfo.desciption}</p>
+                                <img src={eduInfo.imgsrc} alt="schoolpic" className="edu-content-pic"/>
                             </div>
                         </div>
                     ))
