@@ -27,7 +27,7 @@
 }
 .info-content-title{
     text-align: center;
-    font-size: 4rem;
+    font-size: 3rem;
 }
 .info-content-box{
     height: 100%;
@@ -42,10 +42,11 @@
     padding: 1em 2em;
 }
 .info-content-text h1{
+    width: auto;
     color: #FFFFFF;
 }
 .info-content-text h2{
     color:#75C9C8;
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     margin-left: 0.5em;
 }
