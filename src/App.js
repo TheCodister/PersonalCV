@@ -14,6 +14,7 @@ function App() {
           <Route path="/MyHobby" element= {<MyHob />} /> 
         </Routes>
       </div>
+      <Footer/>
     </div>
     </Router>
   );

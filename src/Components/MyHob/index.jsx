@@ -30,5 +30,4 @@ const MyHob = () => {
         </div>
     );
 }
- 
 export default MyHob;

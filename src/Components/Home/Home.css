@@ -1,6 +1,6 @@
 .home{
     display: flex;
-    height: 100vh;
+    height: 100%;
     flex-direction: column;
     text-align: center;
 }
@@ -84,7 +84,7 @@
     color: black;
 }
 .home-content-background{
-    margin-top: 5vw;
+    margin-top: 3vw;
 }
 .home-content-title{
     font-size: 2vw;
@@ -107,5 +107,5 @@
 .home-content{
     text-align: left;
     width: 55vw;
-    height: 15vw;
+    height: 20vw;
 }
