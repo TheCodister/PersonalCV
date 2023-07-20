@@ -1,0 +1,8 @@
+.mypro{
+    display: flex;
+    justify-content: center;
+}
+.mypro a{
+    text-decoration: none;
+    color: #000000;
+}

@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const Home =() => {
     const [blogs, setBlogs] = useState([ //usestate, blog here is a class
         {title: 'About Me', body: 'My name is Nguyen Ngoc Quang, and I am a 21-year-old student currently pursuing my studies in Computer Science at Ho Chi Minh University of Technology. As a dedicated and enthusiastic individual, I am passionate about the world of technology and aspire to become a skilled software engineer in the future.',address: './MyInformation', link: 'Click to see my information', id: 1},
-        {title: 'My Education', body: 'High School: Luong The Vinh High School', link: 'Click to see my education',address: './MyEducation', id: 2},
+        {title: 'My Education', body: 'Currently an OISP Computer Science student of Ho Chi Minh University of Technology(HCMUT) also known as Bach Khoa, I formally study at Luong The Vinh High School District 1.', link: 'Click to see my education',address: './MyEducation', id: 2},
         {title: 'My Project', body: 'I am Quang of HCMUT',address: './MyProject', link: 'Click to see my project', id: 3},
         {title: 'My Hobby', body: 'I am Quang of HCMUT',address: './MyHobby', link: 'Click to see my hobby', id: 4}
     ]);
