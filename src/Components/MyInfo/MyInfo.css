@@ -8,12 +8,12 @@
     padding-bottom: 2em;
 }
 .info-profile{
-    width: 40em;
-    height: 40em;
+    width: 35vw;
+    height: 35vw;
     border-radius: 50%;
     border-style:double;
     border-color: #000000;
-    border-width: 1.5em;
+    border-width: 1.5vw;
     margin-bottom: 6em;
 }
 .info-profile:hover{
