@@ -17,7 +17,7 @@ const NavBar = () => {
                 <Link to="/MyEducation"><h3>My Education</h3></Link>
                 <Link to="/MyProject"><h3>My Project</h3></Link>
                 <Link to="/MyHobby"><h3>My Hobby</h3></Link>
-                <h3>Comment</h3>
+                <Link to="/Comment"><h3>Comment</h3></Link>
             </div>
             {/*
             <div className='User-access'>

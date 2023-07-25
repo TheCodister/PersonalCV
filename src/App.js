@@ -1,4 +1,5 @@
-import { Home, NavBar, MyInfo, MyEdu,MyPro,MyHob,Footer} from './Components';
+import {NavBar,Footer} from './Components';
+import {Home, MyInfo, MyEdu,MyPro,MyHob,Comment} from './Pages'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
           <Route path="/MyEducation" element= {<MyEdu />} /> 
           <Route path="/MyProject" element= {<MyPro />} /> 
           <Route path="/MyHobby" element= {<MyHob />} /> 
+          <Route path="/Comment" element= {<Comment />} /> 
         </Routes>
       </div>
       <Footer/>
