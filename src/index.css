@@ -1,32 +1,42 @@
 body {
   margin: 0;
-  background-color: #64B7D9;
-  font-family: 'Montserrat', sans-serif;
+  background-color: #64b7d9;
+  font-family: "Montserrat", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 code {
-   font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
-::-webkit-scrollbar{
-  width: 2em; 
+::-webkit-scrollbar {
+  width: 2em;
   height: 1.5em;
   scroll-behavior: smooth;
 }
-::-webkit-scrollbar-track{
+::-webkit-scrollbar-track {
   background-color: #000000;
   border-radius: 100vw;
   margin-block: 1em;
 }
-::-webkit-scrollbar-thumb{
-  background: rgb(12,0,217);
-  background: radial-gradient(circle, rgba(12,0,217,1) 0%, rgba(9,9,121,1) 21%, rgba(0,212,255,1) 94%);
+::-webkit-scrollbar-thumb {
+  background: rgb(12, 0, 217);
+  background: radial-gradient(
+    circle,
+    rgba(12, 0, 217, 1) 0%,
+    rgba(9, 9, 121, 1) 21%,
+    rgba(0, 212, 255, 1) 94%
+  );
   border-style: solid;
   border-color: #000000;
   border-width: 0.45em;
   border-radius: 50em;
 }
-::-webkit-scrollbar-thumb:hover{
-  background: rgb(12,0,217);
-  background: radial-gradient(circle, rgba(12,0,217,1) 0%, rgba(9,9,121,1) 22%, rgba(0,212,255,1) 43%);
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(12, 0, 217);
+  background: radial-gradient(
+    circle,
+    rgba(12, 0, 217, 1) 0%,
+    rgba(9, 9, 121, 1) 22%,
+    rgba(0, 212, 255, 1) 43%
+  );
 }

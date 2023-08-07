@@ -1,115 +1,113 @@
-.home{
-    display: flex;
-    height: 100%;
-    flex-direction: column;
-    text-align: center;
+.home {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  text-align: center;
 }
-.home-introduction{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: left;
-    margin: 4em;
+.home-introduction {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  margin: 4em;
 }
-.home-introduction-text{
-    width: 50%;
+.home-introduction-text {
+  width: 50%;
 }
-.home-introduction h2{
-    width: 75%;
-    font-size: 4vw;
-    margin: 0;
+.home-introduction h2 {
+  width: 75%;
+  font-size: 4vw;
+  margin: 0;
 }
-.home-introduction a{
-    text-decoration: none;
-    display: flex;
-    align-items: center;
+.home-introduction a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
 }
-.home-introduction-buttonplace{
-    display: flex;
-    flex-wrap: wrap;
-    height:4vw;
+.home-introduction-buttonplace {
+  display: flex;
+  flex-wrap: wrap;
+  height: 4vw;
 }
-.home-introduction-button{
-    margin-right: 1vw;
+.home-introduction-button {
+  margin-right: 1vw;
 }
-.home-introduction h3{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    width: 8vw;
-    height: 2.8vw;
-    background-color: black;
-    font-weight: bolder;
-    font-size: 1vw;
-    border-radius: 0em 2em 2em 0em;
-    color: white;
-    overflow: auto;
+.home-introduction h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10vw;
+  height: 3vw;
+  background-color: black;
+  font-weight: bolder;
+  font-size: 1vw;
+  border-radius: 1em;
+  border-style: dashed;
+  border-width: 0.25vw;
+  margin-right: 1em;
+  color: white;
 }
-.home-introduction p{
-    width: 70%;
-    font-size: 2vw;
+.home-introduction p {
+  width: 70%;
+  font-size: 2vw;
 }
-.home-introduction h3:hover{
-    background-color: #FFFFFF;
-    color:black;
-    font-weight: bolder;
-    transition: 350ms;
+.home-introduction h3:hover {
+  background-color: #ffffff;
+  border-radius: 2em;
+  color: black;
+  transition: 780ms;
+  transform: scale(1.1);
 }
-.home-introduction-button-icon{
-    color: black;
-    background-color: #FFFFFF;
-    border-radius: 2em 0em 0em 2em;
-    width: 2vw;
-    height: 2.4vw;
-    padding: 0.2vw 0.6vw 0.2vw 0.6vw;
+.home-introduction-pic {
+  height: 78vh;
+  width: 30vw;
+  margin-left: 2vw;
+  border-style: solid;
+  border-color: black;
+  border-width: 0.6vw;
+  border-radius: 4vw;
 }
-.home-introduction-pic{
-    height: 78vh;
-    width: 30vw;
-    margin-left: 2vw;
-    border-style: solid;
-    border-color:black;
-    border-width: 0.6vw;
-    border-radius: 4vw;
+.home-blog-list {
+  display: flex;
+  align-items: center;
+  scroll-snap-type: y mandatory;
+  overflow: auto;
 }
-.home-blog-list{
-    display: flex;
-    align-items: center;
-    scroll-snap-type: y mandatory;
-    overflow: auto;
+.home-blog-list a {
+  text-decoration: none;
+  color: black;
 }
-.home-blog-list a{
-    text-decoration: none;
-    color: black;
+.home-content-background {
+  margin-top: 3vw;
 }
-.home-content-background{
-    margin-top: 3vw;
+.home-content-title {
+  font-size: 2vw;
 }
-.home-content-title{
-    font-size: 2vw;
+.home-content-title-line {
+  border: 0.25vh solid rgb(0, 0, 0);
 }
-.home-content-title-line{
-    border: 0.25vh solid rgb(0, 0, 0);
+.home-content-body {
+  display: flex;
+  flex-direction: column;
+  font-size: 1vw;
+  height: 55%;
 }
-.home-content-body{
-    display: flex;
-    flex-direction: column;
-    font-size: 1vw;
-    height: 55%;
+.home-content-link {
+  font-size: 1vw;
+  font-weight: bold;
 }
-.home-content-link{
-    font-size: 1vw;
-    font-weight: bold;
+.home-content-link:hover {
+  transform: scale(1.05);
+  transition: 150ms;
 }
-.home-content-link:hover{
-    transform: scale(1.05);
-    transition: 150ms;
+.home-content-link p:hover {
+  transition: 150ms;
+  color: #ffffff;
 }
-.home-content{
-    scroll-snap-align: start;
-    text-align: left;
-    width: 45vw;
-    height: 25vw;
-    padding: 2vw;
+.home-content {
+  scroll-snap-align: start;
+  text-align: left;
+  width: 45vw;
+  height: 25vw;
+  padding: 2vw;
 }

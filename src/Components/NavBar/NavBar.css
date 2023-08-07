@@ -1,40 +1,41 @@
-.navbar{
-    display: flex;
-    height: 12vh;
-    align-items: center;
-    justify-content: center;
-    border-radius: 0em 0em 0em 3vw;
-    border-color: #75C9C8;
-    background-color: rgb(27, 19, 19);
-    font-weight: bold;
-    color: #75C9C8;
-    margin-left: 4vw;
+.navbar {
+  display: flex;
+  height: 12vh;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0em 0em 0em 3vw;
+  border-color: #75c9c8;
+  background-color: rgb(27, 19, 19);
+  font-weight: bold;
+  color: #75c9c8;
+  margin-left: 4vw;
 }
-.navbar-icon{
-    width: 4vw;
-    height: 3vw;
-    margin-right: 1vw;
+.navbar-icon {
+  width: 4vw;
+  height: 3vw;
+  margin-right: 1vw;
 }
-.navbar h1{
-    font-size: 1.8vw;
+.navbar h1 {
+  font-size: 1.8vw;
 }
-.links{
-    display: flex;
-    flex-direction: row;
+.links {
+  display: flex;
+  flex-direction: row;
 }
-.links a{
-    text-decoration: none;
+.links a {
+  text-decoration: none;
 }
-.links h3{
-    padding: 0.5em 1em 0.5em 1em;
-    text-align: center;
-    color: #75C9C8;
-    font-weight: bold;
-    font-size: 1.1vw;
-    margin-left: 1em;
-    cursor: pointer;
+.links h3 {
+  padding: 0.5em 1em 0.5em 1em;
+  text-align: center;
+  color: #75c9c8;
+  font-weight: bold;
+  font-size: 1.1vw;
+  margin-left: 1em;
+  cursor: pointer;
 }
-.links h3:hover{
-    transform: scale(1.1);
-    transition: 150ms;
+.links h3:hover {
+  transform: scale(1.1);
+  transition: 250ms;
+  color: #fff;
 }
