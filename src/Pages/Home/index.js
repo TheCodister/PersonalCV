@@ -1,17 +1,8 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import BlogList from "./Bloglist";
-import { FaArrowRight } from "react-icons/fa";
 import "./Home.css";
 import { Link } from "react-router-dom";
 const Home = () => {
-  const Education = [
-    {
-      University: "Ho Chi Minh University of Technology",
-      HighSchool: "Luong The Vinh High School",
-      SecondarySchool: "Nguyen Huu Tho Secondary School",
-      ElementarySchool: "Nguyen Thi Dinh Elementary school",
-    },
-  ];
   const [blogs, setBlogs] = useState([
     //usestate, blog here is a class
     {

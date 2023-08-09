@@ -33,6 +33,7 @@
   margin-right: 1vw;
 }
 .home-introduction h3 {
+  transition: 700ms;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -55,17 +56,22 @@
   background-color: #ffffff;
   border-radius: 2em;
   color: black;
-  transition: 780ms;
+  transition: 700ms;
   transform: scale(1.1);
 }
 .home-introduction-pic {
+  transition: 700ms;
   height: 78vh;
   width: 30vw;
   margin-left: 2vw;
   border-style: solid;
   border-color: black;
   border-width: 0.6vw;
-  border-radius: 4vw;
+  border-radius: 5vw;
+}
+.home-introduction-pic:hover {
+  border-radius: 1vw;
+  transition: 500ms;
 }
 .home-blog-list {
   display: flex;
@@ -93,18 +99,20 @@
   height: 55%;
 }
 .home-content-link {
+  transition: 300ms;
   font-size: 1vw;
   font-weight: bold;
 }
 .home-content-link:hover {
   transform: scale(1.05);
-  transition: 150ms;
+  transition: 300ms;
 }
 .home-content-link p:hover {
-  transition: 150ms;
+  transition: 300ms;
   color: #ffffff;
 }
 .home-content {
+  transition: 1s;
   scroll-snap-align: start;
   text-align: left;
   width: 45vw;

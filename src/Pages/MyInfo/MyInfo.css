@@ -1,54 +1,56 @@
-.info{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin-top: 4vw;
-    scroll-behavior: smooth;
-    padding-bottom: 2em;
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 4vw;
+  scroll-behavior: smooth;
+  padding-bottom: 2em;
 }
-.info-profile{
-    width: 35vw;
-    height: 35vw;
-    border-radius: 50%;
-    border-style:double;
-    border-color: #000000;
-    border-width: 1.5vw;
-    margin-bottom: 6em;
+.info-profile {
+  transition: 1.5s;
+  width: 35vw;
+  height: 35vw;
+  border-radius: 50%;
+  border-style: double;
+  border-color: #000000;
+  border-width: 1.5vw;
+  margin-bottom: 6em;
 }
-.info-profile:hover{
-    transform: rotate(360deg);
-    transition: 1.5s;
+.info-profile:hover {
+  transform: scale(1.1);
+  border-radius: 4em;
+  transition: 1.5s;
 }
-.info-content{
-    padding: 0em 6em;
-    padding-bottom: 4em;
-    background-color: #FFFFFF;
-    width: 80%;
-    border-radius: 5em;
+.info-content {
+  padding: 0em 6em;
+  padding-bottom: 4em;
+  background-color: #ffffff;
+  width: 80%;
+  border-radius: 5em;
 }
-.info-content-title{
-    text-align: center;
-    font-size: 3rem;
+.info-content-title {
+  text-align: center;
+  font-size: 3rem;
 }
-.info-content-box{
-    height: 100%;
-    background-color: #000000;
-    border-radius: 4em;
+.info-content-box {
+  height: 100%;
+  background-color: #000000;
+  border-radius: 4em;
 }
-.info-content-text{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    color: #75C9C8;
-    padding: 1em 2em;
+.info-content-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #75c9c8;
+  padding: 1em 2em;
 }
-.info-content-text h1{
-    width: auto;
-    color: #FFFFFF;
+.info-content-text h1 {
+  width: auto;
+  color: #ffffff;
 }
-.info-content-text h2{
-    color:#75C9C8;
-    font-size: 1.5rem;
-    margin-left: 0.5em;
+.info-content-text h2 {
+  color: #75c9c8;
+  font-size: 1.5rem;
+  margin-left: 0.5em;
 }
