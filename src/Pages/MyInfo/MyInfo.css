@@ -54,3 +54,7 @@
   font-size: 1.5rem;
   margin-left: 0.5em;
 }
+.info-content-text:hover {
+  transform: scale(1.3) translateX(11%);
+  transition: 500ms;
+}

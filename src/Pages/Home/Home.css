@@ -98,16 +98,13 @@
   font-size: 1vw;
   height: 55%;
 }
-.home-content-link {
+.home-content-link p {
   transition: 300ms;
   font-size: 1vw;
   font-weight: bold;
 }
-.home-content-link:hover {
-  transform: scale(1.05);
-  transition: 300ms;
-}
 .home-content-link p:hover {
+  transform: scale(1.1) translateX(5%);
   transition: 300ms;
   color: #ffffff;
 }
