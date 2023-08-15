@@ -1,4 +1,4 @@
-.edu {
+.edu-content {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -11,10 +11,11 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  width: 78em;
-  height: 25em;
+  width: clamp(12em, 90%, 78em);
+  height: clamp(12em, 25em, 70em);
+  font-size: clamp(0.25em, 0.9vw, 1.5vw);
   margin-top: 4em;
-  padding: 0.2em;
+  padding: 1em;
 }
 .edu-content-pic {
   transition: 300ms ease-in-out;

@@ -1,55 +1,56 @@
-.hob{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 2em;
+.hob-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2em;
 }
-.hob-content-box{
-    background-color: #000000;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 78em;
-    height: 25em;
-    margin-top: 4em;
-    padding: 0.2em;
+.hob-content-box {
+  background-color: #000000;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: clamp(12em, 90%, 78em);
+  height: clamp(12em, 25em, 70em);
+  font-size: clamp(0.25em, 0.9vw, 1.5vw);
+  margin-top: 4em;
+  padding: 1em;
 }
-.hob-content-pic{
-    width: 30em;
-    height: 20em;
-    box-shadow: 1em 1em #64B7D9;
+.hob-content-pic {
+  width: 30em;
+  height: 20em;
+  box-shadow: 1em 1em #64b7d9;
 }
-.hob-content-box-title{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align:center;
-    border-right-style: solid;
-    color: #75C9C8;
-    width: 15em;
-    height: 15em;
-    padding:1em;
+.hob-content-box-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  border-right-style: solid;
+  color: #75c9c8;
+  width: 15em;
+  height: 15em;
+  padding: 1em;
 }
-.hob-content-box-icon{
-    width: 10em;
-    height: 5em;
+.hob-content-box-icon {
+  width: 10em;
+  height: 5em;
 }
-.hob-content-box-title h2{
-    color: #FFFFFF;
+.hob-content-box-title h2 {
+  color: #ffffff;
 }
-.hob-content-box-des{
-    display: flex;
-    flex-direction: row;
-    text-align: left;
+.hob-content-box-des {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
 }
-.hob-content-box-des p{
-    display: flex;
-    align-items: center;
-    width: 25em;
-    color:#FFFFFF;
-    background-color: #000000;
-    padding: 1em;
+.hob-content-box-des p {
+  display: flex;
+  align-items: center;
+  width: 25em;
+  color: #ffffff;
+  background-color: #000000;
+  padding: 1em;
 }
